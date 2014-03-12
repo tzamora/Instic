@@ -1,0 +1,166 @@
+fileFormatVersion: 2
+guid: 89f7eaf03f497244e9d8b7b806f746de
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bone001
+    100002: Bone002
+    100004: Bone003
+    100006: Bone004
+    100008: Bone005
+    100010: Bone006
+    100012: Bone007
+    100014: Bone008
+    100016: Bone009
+    100018: Bone010
+    100020: Bone011
+    100022: Bone012
+    100024: Bone013
+    100026: Bone014
+    100028: Bone015
+    100030: Bone019
+    100032: Bone020
+    100034: Bone021
+    100036: Bone022
+    100038: Bone023
+    100040: Bone024
+    100042: Bone025
+    100044: Bone026
+    100046: Bone027
+    100048: centro
+    100050: cuchilla008
+    100052: cuchilla009
+    100054: cuchilla010
+    100056: cuchilla011
+    100058: cuchilla012
+    100060: cuchilla014
+    100062: cuchilla015
+    100064: cuchilla016
+    100066: Esfera Ataque
+    100068: //RootNode
+    100070: IK Chain001
+    100072: IK Chain002
+    100074: IK Chain003
+    100076: IK Chain004
+    100078: IK Chain005
+    100080: IK Chain006
+    100082: IK Chain007
+    100084: IK Chain008
+    400000: Bone001
+    400002: Bone002
+    400004: Bone003
+    400006: Bone004
+    400008: Bone005
+    400010: Bone006
+    400012: Bone007
+    400014: Bone008
+    400016: Bone009
+    400018: Bone010
+    400020: Bone011
+    400022: Bone012
+    400024: Bone013
+    400026: Bone014
+    400028: Bone015
+    400030: Bone019
+    400032: Bone020
+    400034: Bone021
+    400036: Bone022
+    400038: Bone023
+    400040: Bone024
+    400042: Bone025
+    400044: Bone026
+    400046: Bone027
+    400048: centro
+    400050: cuchilla008
+    400052: cuchilla009
+    400054: cuchilla010
+    400056: cuchilla011
+    400058: cuchilla012
+    400060: cuchilla014
+    400062: cuchilla015
+    400064: cuchilla016
+    400066: Esfera Ataque
+    400068: //RootNode
+    400070: IK Chain001
+    400072: IK Chain002
+    400074: IK Chain003
+    400076: IK Chain004
+    400078: IK Chain005
+    400080: IK Chain006
+    400082: IK Chain007
+    400084: IK Chain008
+    2300000: centro
+    2300002: Esfera Ataque
+    3300000: centro
+    3300002: Esfera Ataque
+    4300000: cuchilla008
+    4300002: cuchilla009
+    4300004: cuchilla010
+    4300006: cuchilla011
+    4300008: cuchilla012
+    4300010: cuchilla014
+    4300012: cuchilla015
+    4300014: cuchilla016
+    4300016: Esfera Ataque
+    4300018: centro
+    7400000: Take 001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: cuchilla008
+    13700002: cuchilla009
+    13700004: cuchilla010
+    13700006: cuchilla011
+    13700008: cuchilla012
+    13700010: cuchilla014
+    13700012: cuchilla015
+    13700014: cuchilla016
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .200000003
+    meshCompression: 0
+    addColliders: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 

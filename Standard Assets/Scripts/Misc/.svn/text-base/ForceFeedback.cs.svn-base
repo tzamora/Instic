@@ -1,0 +1,147 @@
+using UnityEngine;
+using System.Collections;
+using XInputDotNetPure;
+
+public class ForceFeedback : MonoBehaviour {
+	
+	private IsCollidingTrigger colliderScript;
+	private IsCollidingTrigger colliderHitScript;
+	private Timer feedbackTimer;
+	private Timer deathTimer;
+	
+	public int playerNum = -1;
+	public float feedbackCooldown = 0.2f;
+	public bool death = false;
+	
+	bool playerIndexSet = false;
+    PlayerIndex playerIndex;
+    GamePadState state;
+    GamePadState prevState;
+    
+    //GameObject textObject;
+    //GameObject cubeObject;
+    //float cubeAngle = 0.0f;
+	
+	// Use this for initialization
+	void Start () {
+		colliderScript = this.transform.FindChild("ForceCollider").GetComponent<IsCollidingTrigger>();
+		colliderScript.AddFilteringLayer("Player");
+		
+		colliderHitScript = this.transform.FindChild("HitCollider").GetComponent<IsCollidingTrigger>();
+		colliderHitScript.AddFilteringLayer("Player");
+		
+		feedbackTimer = this.gameObject.AddComponent<Timer>();
+		feedbackTimer.duration = feedbackCooldown;
+		
+		deathTimer = this.gameObject.AddComponent<Timer>();
+		deathTimer.duration = feedbackCooldown * 10;
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		/*if(colliderScript.who != null && colliderScript.isCollidingTrigger){
+			
+		}else{
+		
+		}*/
+		//GamePad.SetVibration((PlayerIndex)playerNum, 1f, 0f);
+		/*if(feedbackTimer.finished){
+			GamePad.SetVibration((PlayerIndex)playerNum, 0f, 0f);
+		}*/
+		
+		Debug.Log(feedbackTimer.currentTime);
+		
+		if(Input.GetButton("A_" + playerNum)){
+			Vibrate();
+		}
+		
+		if (!playerIndexSet || !prevState.IsConnected)
+        {
+			PlayerIndex testPlayerIndex = (PlayerIndex)(playerNum - 1);
+	        GamePadState testState = GamePad.GetState(testPlayerIndex);
+	        if (testState.IsConnected)
+	        {
+	            //Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
+	            playerIndex = testPlayerIndex;
+	            playerIndexSet = true;
+	        }
+		}
+		
+		//if(!death && colliderScript.who != null && colliderScript.isCollidingTrigger){
+			
+	
+	        state = GamePad.GetState(playerIndex);
+	
+			if(!feedbackTimer.finished){
+				Debug.Log("vibrate2:" + playerNum);
+	        	GamePad.SetVibration(playerIndex, 0.4f, 0.4f);
+			}
+			else{
+				GamePad.SetVibration(playerIndex, 0f, 0f);
+			}
+	
+			prevState = state;
+		//}
+		//else{
+		//	GamePad.SetVibration(playerIndex, 0f, 0f);
+		//}
+		
+		if(death){
+			state = GamePad.GetState(playerIndex);
+	
+			if(!deathTimer.finished){
+	        	GamePad.SetVibration(playerIndex, 0f, 0f);
+			}
+			else{
+				GamePad.SetVibration(playerIndex, 0f, 0f);
+				death = false;
+			}
+	
+			prevState = state;
+		}
+	}
+	
+	void Vibrate(){
+		if(feedbackTimer != null && feedbackTimer.finished){
+			Debug.Log("vibrate1:" + playerNum);
+			GamePad.SetVibration((PlayerIndex)(playerNum - 1), 0.8f, 0.8f);
+			feedbackTimer.resetTimer();
+		}
+	}
+	
+	public void VibrateDie(){
+		if(deathTimer != null && deathTimer.finished){
+			GamePad.SetVibration((PlayerIndex)(playerNum - 1), 0f, 0f);
+			death = true;
+			deathTimer.resetTimer();
+		}
+	}
+	
+	/*void OnCollisionEnter(Collision collision){
+		Vibrate();
+	}*/
+	
+	/*void BeforeDestroy(){
+		GamePad.SetVibration((PlayerIndex)playerNum, 0f, 0f);
+	}*/
+	
+	void OnApplicationQuit(){
+		if (!playerIndexSet || !prevState.IsConnected)
+        {
+            PlayerIndex testPlayerIndex = (PlayerIndex)(playerNum - 1);
+            GamePadState testState = GamePad.GetState(testPlayerIndex);
+            if (testState.IsConnected)
+            {
+                //Debug.Log(string.Format("GamePad found {0}", testPlayerIndex));
+                playerIndex = testPlayerIndex;
+                playerIndexSet = true;
+            }
+        }
+
+        state = GamePad.GetState(playerIndex);
+
+		GamePad.SetVibration(playerIndex, 0f, 0f);
+
+		prevState = state;
+	}
+}

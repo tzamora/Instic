@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 7009893312d049942ae7ad9836d40285
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: pareds
+    100004: suelol1
+    100006: columnas
+    100008: columnas 1
+    100010: columnas 2
+    100012: columnas 3
+    100014: columnas 4
+    100016: columnas 5
+    100018: columnas 6
+    100020: columnas 7
+    100022: inicio
+    100024: inicio 1
+    100026: inicio 2
+    100028: inicio 3
+    100030: inicio 4
+    100032: tuberia
+    400000: //RootNode
+    400002: pareds
+    400004: suelol1
+    400006: columnas
+    400008: columnas 1
+    400010: columnas 2
+    400012: columnas 3
+    400014: columnas 4
+    400016: columnas 5
+    400018: columnas 6
+    400020: columnas 7
+    400022: inicio
+    400024: inicio 1
+    400026: inicio 2
+    400028: inicio 3
+    400030: inicio 4
+    400032: tuberia
+    2300000: pareds
+    2300002: suelol1
+    2300004: columnas
+    2300006: columnas 1
+    2300008: columnas 2
+    2300010: columnas 3
+    2300012: columnas 4
+    2300014: columnas 5
+    2300016: columnas 6
+    2300018: columnas 7
+    2300020: inicio
+    2300022: inicio 1
+    2300024: inicio 2
+    2300026: inicio 3
+    2300028: inicio 4
+    2300030: tuberia
+    3300000: pareds
+    3300002: suelol1
+    3300004: columnas
+    3300006: columnas 1
+    3300008: columnas 2
+    3300010: columnas 3
+    3300012: columnas 4
+    3300014: columnas 5
+    3300016: columnas 6
+    3300018: columnas 7
+    3300020: inicio
+    3300022: inicio 1
+    3300024: inicio 2
+    3300026: inicio 3
+    3300028: inicio 4
+    3300030: tuberia
+    4300000: suelol1
+    4300002: pareds
+    4300004: inicio
+    4300006: tuberia
+    4300008: inicio
+    4300010: inicio
+    4300012: inicio
+    4300014: inicio
+    4300016: columnas
+    4300018: columnas
+    4300020: columnas
+    4300022: columnas
+    4300024: columnas
+    4300026: columnas
+    4300028: columnas
+    4300030: columnas
+    6400000: pareds
+    6400002: suelol1
+    6400004: columnas
+    6400006: columnas 1
+    6400008: columnas 2
+    6400010: columnas 3
+    6400012: columnas 4
+    6400014: columnas 5
+    6400016: columnas 6
+    6400018: columnas 7
+    6400020: inicio
+    6400022: inicio 1
+    6400024: inicio 2
+    6400026: inicio 3
+    6400028: inicio 4
+    6400030: tuberia
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 2
+  userData: 

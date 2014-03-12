@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/frijoleros/!svn/ver/71/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player
+END
+AudioManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/frijoleros/!svn/ver/26/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/AudioManager.cs
+END
+Radar.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/frijoleros/!svn/ver/16/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Radar.cs.meta
+END
+FollowPlayer.cs
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/frijoleros/!svn/ver/10/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/FollowPlayer.cs
+END
+Movement.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/frijoleros/!svn/ver/10/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Movement.cs.meta
+END
+AudioManager.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/frijoleros/!svn/ver/26/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/AudioManager.cs.meta
+END
+FollowPlayer.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/frijoleros/!svn/ver/10/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/FollowPlayer.cs.meta
+END
+Attacking.cs
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/frijoleros/!svn/ver/71/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Attacking.cs
+END
+Radar.cs
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/frijoleros/!svn/ver/62/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Radar.cs
+END
+Attacking.cs.meta
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/frijoleros/!svn/ver/11/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Attacking.cs.meta
+END
+Movement.cs
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/frijoleros/!svn/ver/61/trunk/CodenameCarreta/Assets/Standard%20Assets/Scripts/Player/Movement.cs
+END
